@@ -9,7 +9,7 @@ body
 
 p
 {
-	font-family: "Time New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 a:link
@@ -33,8 +33,21 @@ a:active
 	text-decoration: underline;
 }
 
-th, td
+table
 {
-background color: lightgrey;
-text-align: center;
+	width: 100%;
+}
+th
+{
+	background-color: blue;
+	color: orange;
+	text-align: center;
+	height: 50px;
+}
+td
+{
+	padding: 15px;
+	background-color: lightgrey;
+	color: black;
+	text-align: center;
 }
