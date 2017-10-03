@@ -4,7 +4,7 @@ This is my style css
 
 body
 {
-	background-color: silver;
+	background-color: lightgrey;
 }
 
 p
@@ -19,7 +19,7 @@ a:link
 }
 a:visited
 {
-	color: red;
+	color: orange;
 	text-decoration: none;
 }
 a:hover
@@ -35,6 +35,6 @@ a:active
 
 th, td
 {
-background color: silver;
+background color: lightgrey;
 text-align: center;
 }
