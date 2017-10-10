@@ -55,6 +55,10 @@ td
 .menu
 {
 	position: absolute;
-	float: left;
 	top: 30px;
+}
+
+.header
+{
+	position: center;
 }
