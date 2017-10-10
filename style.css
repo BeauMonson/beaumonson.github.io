@@ -51,3 +51,12 @@ td
 	color: black;
 	text-align: center;
 }
+
+.menu
+{
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	width: 20%;
+	text-align: center;
+}
