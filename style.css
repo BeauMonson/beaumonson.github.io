@@ -62,11 +62,6 @@ td
 .content
 {
 	max-width: 1500px;
-	left: 200px;
+	margin-left: 200px;
 	text-align: center;
-}
-
-.table
-{
-	left: 200px;
 }
