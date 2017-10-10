@@ -56,12 +56,10 @@ td
 {
 	position: fixed;
 	top: 30px;
-	width: 10%;
 }
 
 .header
 {
 	position: absolute;
-	left: 10%;
-	align: center;
+	left: 240px;
 }
