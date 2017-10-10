@@ -58,3 +58,11 @@ td
 	top: 30px;
 	width: 10%;
 }
+
+.header
+{
+	position: absolute;
+	left: 40px;
+	width: 90%;
+	align: center;
+}
