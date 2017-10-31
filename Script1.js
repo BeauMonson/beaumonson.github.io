@@ -6,45 +6,39 @@ JavaScript source code
 function validateEntries() {
 	
 	//declare the variables
-	var first = document.contactForm.firstname.value;
-	var last = document.contactForm.lastname.value;
-	var email = document.contactForm.email.value;
-	var type = document.contactForm.type.value;
-	var comment = document.contactForm.comment.value;
+	var a = document.contactForm.firstname.value;
+	var b = document.contactForm.lastname.value;
+	var c = document.contactForm.email.value;
+	var d = document.contactForm.type.value;
+	var e = document.contactForm.comment.value;
 
 	//validate the entries
-	if (first == "" || first == null)
+	if (a == "" || a == null)
 	{
 		alert("Please enter your first name.");
-		firstname.Focus();
 		return false;
 	}
-	else if (last == "" || last == null)
+	else if (b == "" || b == null)
 	{
 		alert("Please enter your last name.");
-		lastname.Focus();
 		return false;
 	}
-	else if (email == "" || email == null)
+	else if (c == "" || c == null)
 	{
 		alert("Please enter your email.");
-		email.Focus();
 		return false;
 	}
-	else if (type == "" || type == null)
+	else if (d == "" || d == null)
 	{
 		alert("Please enter a comment type.");
-		type.Focus();
 		return false;
 	}
-	else if (comment == "" || comment == null)
+	else if (e == "" || e == null)
 	{
 		alert("Please enter a comment so that we may best serve you.");
-		comment.Focus();
 		return false;
 	}
 }//end of validateEntries()
 
 function clearEntries() {
-	document.getElementById(contactForm).reset();
 }//end of clearEntries()
