@@ -17,6 +17,7 @@ function validateEntries() {
 	if (a == "" || a == null)
 	{
 		alert("Please enter your first name.");
+		document.contactForm.lastName = b;
 		return false;
 	}
 	else if (b == "" || b == null)
