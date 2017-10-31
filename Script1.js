@@ -43,5 +43,5 @@ function validateEntries() {
 
 #date {
 	var d = new Date();
-	document.getElementById("date") = d.toDateString();
+	document.getElementById("date").innerHTML = d.toDateString();
 }
