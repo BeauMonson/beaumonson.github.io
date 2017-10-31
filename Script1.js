@@ -40,3 +40,8 @@ function validateEntries() {
 		return false;
 	}
 }//end of validateEntries()
+
+#date {
+	var d = new Date();
+	document.getElementById("date") = d.toDateString();
+}
