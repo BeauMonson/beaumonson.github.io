@@ -8,11 +8,12 @@ function validateEntries() {
 	prompt("Does this work");
 
 	//declare the variables
-	var a = document.contactForm.firstname.value;
-	var b = document.contactForm.lastname.value;
+	var a = document.contactForm.firstName.value;
+	var b = document.contactForm.lastName.value;
 	var c = document.contactForm.email.value;
 	var d = document.contactForm.type.value;
 	var e = document.contactForm.comment.value;
+	
 
 	//validate the entries
 	if (a == "" || a == null)
