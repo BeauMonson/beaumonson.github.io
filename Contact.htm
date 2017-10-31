@@ -30,7 +30,7 @@
         Thank you for your business!
     </p>
 
-    <form name="contactForm">
+    <form name="contactForm" onsubmit="validateEntries()">
         <p>
             First Name: <br />
             <input type ="text" name ="firstName" /> <br />
@@ -54,7 +54,7 @@
 
             <br /> <br />
 
-            <input type ="submit" value ="Submit" onclick="validateEntries()"/>
+            <input type ="submit" value ="Submit" />
             <input type ="reset" value ="Reset" onclick="clearEntries()" />
         </p>
     </form>
