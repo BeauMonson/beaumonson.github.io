@@ -5,8 +5,6 @@ JavaScript source code
 //function to validate entries
 function validateEntries() {
 	
-	prompt("Does this work");
-
 	//declare the variables
 	var a = document.contactForm.firstName.value;
 	var b = document.contactForm.lastName.value;
