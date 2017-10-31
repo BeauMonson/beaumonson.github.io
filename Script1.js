@@ -39,6 +39,3 @@ function validateEntries() {
 		return false;
 	}
 }//end of validateEntries()
-
-function clearEntries() {
-}//end of clearEntries()
