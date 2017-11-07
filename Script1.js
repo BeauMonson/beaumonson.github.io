@@ -53,3 +53,19 @@ function menuFunction()
         x.className = "menu";
     }
 }
+
+var navbar = document.getElementById("myMenu");
+var sticky = navbar.offsetTop;
+
+
+function scrollFunction() 
+{
+  if (window.pageYOffset >= sticky) 
+  {
+    navbar.classList.add("sticky")
+  }
+  else 
+  {
+    navbar.classList.remove("sticky");
+  }
+}
