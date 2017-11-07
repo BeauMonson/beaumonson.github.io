@@ -55,7 +55,7 @@ function menuFunction()
 }
 
 var navbar = document.getElementById("myMenu");
-var sticky = navbar.offsetTop;
+var sticky = myMenu.offsetTop;
 
 
 function scrollFunction() 
