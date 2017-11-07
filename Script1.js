@@ -60,12 +60,15 @@ function scrollFunction()
 function menuFunction() 
 {
     var x = document.getElementById("myMenu");
+	var y = document.getElementById("myDrop")
     if (x.className === "menu") 
 	{
-        x.className += " responsive";
+        x.className += "responsive";
+		y.className += "responsive";
     } 
 	else 
 	{
         x.className = "menu";
+		y.className = "menu";
     }
 }
