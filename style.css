@@ -41,6 +41,7 @@ td
 {
 	overflow: hidden;
 	background-color: #333;
+	padding-left: 400px;
 }
 
 .menu a 
@@ -52,7 +53,6 @@ td
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-	padding-left: 60px;
 }
 
 .menu a:hover 
