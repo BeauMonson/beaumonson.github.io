@@ -60,7 +60,7 @@ function scrollFunction()
 function menuFunction() 
 {
     var x = document.getElementById("myMenu");
-	var y = document.getElementById("myDrop")
+	var y = document.getElementById("myDrop");
     if (x.className === "menu") 
 	{
         x.className += "responsive";
