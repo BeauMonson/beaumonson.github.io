@@ -2,7 +2,8 @@
 JavaScript source code
 */
 
-/*function to validate entries
+/*function to validate entries using JavaScript; commented out for assignment 8.
+	Does not keep other entries in the fields even if only one is misssing.
 function validateEntries() {
 	
 	//declare the variables
