@@ -63,7 +63,6 @@ td
 {
 	float: left;
 	overflow: hidden;
-	cursor: pointer;
 }
 
 .dropdown .dropbtn
@@ -75,6 +74,7 @@ td
   background-color: inherit;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .menu a:hover, .dropdown:hover .dropbtn
