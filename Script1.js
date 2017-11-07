@@ -43,13 +43,13 @@ function validateEntries() {
 
 function menuFunction() 
 {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") 
+    var x = document.getElementById("myMenu");
+    if (x.className === "menu") 
 	{
         x.className += " responsive";
     } 
 	else 
 	{
-        x.className = "topnav";
+        x.className = "menu";
     }
 }
