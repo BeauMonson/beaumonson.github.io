@@ -63,6 +63,7 @@ td
 {
 	float: left;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .dropdown .dropbtn
@@ -82,12 +83,12 @@ td
     color: black;
 }
 
+/*
 .menu .icon 
 {
     display: none;
 }
 
-/*
 @media screen and (max-width: 600px) 
 {
   .menu a:not(:first-child) {display: none;}
