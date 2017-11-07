@@ -15,12 +15,12 @@
 
 <body>
 
-    <ul class ="menu">
-        <li> <a href ="index.htm"> Home</a> </li>
-        <li> <a href ="gloves.htm"> Baseball Gloves</a> </li>
-        <li> <a href ="shoes.htm"> Sport Shoes</a> </li>
-        <li> <a href ="Contact.htm"> Contact Us</a> </li>
-    </ul>
+    <div class ="menu" id="myMenu">
+        <a href ="index.htm"> Home</a>
+        <a href ="gloves.htm"> Baseball Gloves</a>
+        <a href ="shoes.htm"> Sport Shoes</a>
+        <a href ="Contact.htm"> Contact Us</a>
+    </div>
 
 <div class="content">
 <img src="logo.png" height="250" width="600" alt="Store Logo" class="header"/>
@@ -36,13 +36,10 @@
 </div>
 
 <footer>
-    <p>
-        Today's Date is:
-    </p>
     <p id = "date";>
         <script>
             var d = new Date();
-	        document.getElementById("date").innerHTML = d.toDateString();
+	        document.getElementById("date").innerHTML = "Today's date is: " + d.toDateString();
         </script>
     </p>
 </footer>

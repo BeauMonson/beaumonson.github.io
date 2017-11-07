@@ -70,13 +70,10 @@
     </div>
 
 <footer>
-    <p>
-        Today's Date is:
-    </p>
     <p id = "date";>
         <script>
             var d = new Date();
-	        document.getElementById("date").innerHTML = d.toDateString();
+	        document.getElementById("date").innerHTML = "Today's date is: " + d.toDateString();
         </script>
     </p>
 </footer>
