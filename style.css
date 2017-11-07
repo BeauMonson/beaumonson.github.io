@@ -2,6 +2,11 @@
 This is my style css
 */
 
+head
+{
+	background-color: white;
+}
+
 body
 {
 	background-color: lightgrey;
