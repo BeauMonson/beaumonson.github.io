@@ -42,23 +42,24 @@
     <form name="contactForm" onsubmit="validateEntries()">
         <p>
             First Name: <br />
-            <input type ="text" name ="firstName" /> <br />
+            <input type ="text" name ="firstName" required/> <br />
 
             Last Name: <br />
-            <input type ="text" name ="lastName" /> <br />
+            <input type ="text" name ="lastName" required/> <br />
 
             Email: <br />
-            <input type ="text" name ="email" /> <br />
+            <input type ="text" name ="email" required/> <br />
 
             Comment Type: <br />
-            <select name ="type">
+            <select name ="type" required>
                 <option> Question </option>
                 <option> Problem </option>
                 <option> Order Status Update </option>
             </select>   <br />
 
             Comment: <br />
-            <textarea name ="comment" rows="7" cols="30">
+            <textarea
+                name ="comment" rows="7" cols="30" required>
             </textarea> 
 
             <br /> <br />
