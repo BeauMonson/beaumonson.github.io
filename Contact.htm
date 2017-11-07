@@ -7,7 +7,8 @@
   <title>Contact Us</title>
   <meta name="description" content="HTML5 Template">
 
-     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -17,8 +18,15 @@
 
     <div class ="menu" id="myMenu">
         <a href ="index.htm"> Home</a>
-        <a href ="gloves.htm"> Baseball Gloves</a>
-        <a href ="shoes.htm"> Sport Shoes</a>
+        <div class="dropdown">
+            <button class="dropbtn">Products 
+            <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content">
+                    <a href ="gloves.htm"> Baseball Gloves</a>
+                    <a href ="shoes.htm"> Sport Shoes</a>
+                </div>
+        </div>
         <a href ="Contact.htm"> Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
     </div>
