@@ -57,7 +57,7 @@ function scrollFunction()
   }
 }
 
-
+/*
 function menuFunction() 
 {
     var x = document.getElementById("myMenu");
@@ -70,3 +70,4 @@ function menuFunction()
         x.className = "menu";
     }
 }
+*/

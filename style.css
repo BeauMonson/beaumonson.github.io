@@ -87,6 +87,7 @@ td
     display: none;
 }
 
+/*
 @media screen and (max-width: 600px) 
 {
   .menu a:not(:first-child) {display: none;}
@@ -113,6 +114,7 @@ td
     text-align: left;
   }
 }
+*/
 
 .sticky 
 {
