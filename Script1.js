@@ -54,18 +54,18 @@ function menuFunction()
     }
 }
 
-var navbar = document.getElementById("myMenu");
-var sticky = myMenu.offsetTop;
 
+var myMenu = document.getElementById("myMenu");
+var sticky = myMenu.offsetTop;
 
 function scrollFunction() 
 {
   if (window.pageYOffset >= sticky) 
   {
-    navbar.classList.add("sticky")
+    myMenu.classList.add("sticky")
   }
   else 
   {
-    navbar.classList.remove("sticky");
+    myMenu.classList.remove("sticky");
   }
 }
