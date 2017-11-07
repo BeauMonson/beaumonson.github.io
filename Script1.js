@@ -41,20 +41,6 @@ function validateEntries() {
 	}
 }//end of validateEntries()
 
-function menuFunction() 
-{
-    var x = document.getElementById("myMenu");
-    if (x.className === "menu") 
-	{
-        x.className += " responsive";
-    } 
-	else 
-	{
-        x.className = "menu";
-    }
-}
-
-
 var myMenu = document.getElementById("myMenu");
 var sticky = myMenu.offsetTop;
 
@@ -68,4 +54,17 @@ function scrollFunction()
   {
     myMenu.classList.remove("sticky");
   }
+}
+
+function menuFunction() 
+{
+    var x = document.getElementById("myMenu");
+    if (x.className === "menu") 
+	{
+        x.className += " responsive";
+    } 
+	else 
+	{
+        x.className = "menu";
+    }
 }
