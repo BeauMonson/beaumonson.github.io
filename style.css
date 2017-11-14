@@ -163,6 +163,8 @@ td
 .slideshow-container {
   position: relative;
   margin: auto;
+  height:250px;
+  width:100%
 }
 
 .mySlides {
