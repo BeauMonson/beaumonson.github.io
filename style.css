@@ -7,6 +7,10 @@ This is my style css
 	background-color: white;
 }
 
+.content {
+	background-color: lightgrey;
+}
+
 body
 {
 	background-color: lightgrey;
