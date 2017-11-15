@@ -2,6 +2,21 @@
 JavaScript source code
 */
 
+var myMenu = document.getElementById("myMenu");
+var sticky = myMenu.offsetTop;
+
+function scrollFunction() 
+{
+  if (window.pageYOffset >= sticky) 
+  {
+    myMenu.classList.add("sticky")
+  }
+  else 
+  {
+    myMenu.classList.remove("sticky");
+  }
+}
+
 //automatic slideshow
 var slideIndex = 0;
 showSlides();
