@@ -238,7 +238,7 @@ td
 .products-head {
 	position: relative;
 	margin: auto;
-	width:600px;
+	width:100%;
 	height: 250px;
 	max-height: 250px;
 	overflow:hidden;
