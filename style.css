@@ -5,6 +5,12 @@ This is my style css
 .header
 {
 	background-color: white;
+	position: relative;
+	margin: auto;
+	width:50%;
+	height: 250px;
+	max-height: 200px;
+	overflow:hidden;
 }
 
 body
