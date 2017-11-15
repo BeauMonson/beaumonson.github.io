@@ -7,10 +7,6 @@ This is my style css
 	background-color: white;
 }
 
-.content {
-	background-color: lightgrey;
-}
-
 body
 {
 	background-color: lightgrey;
@@ -242,10 +238,11 @@ td
 .products-head {
 	position: relative;
 	margin: auto;
-	width:600;
+	width:600px;
 	height: 250px;
 	max-height: 250px;
 	overflow:hidden;
+	background-color: white;
 }
 
 @-webkit-keyframes fade {
