@@ -99,7 +99,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//automatic slideshow
+/*automatic slideshow
 var slideIndex = 0;
 showSlides();
 
@@ -119,3 +119,4 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+*/
