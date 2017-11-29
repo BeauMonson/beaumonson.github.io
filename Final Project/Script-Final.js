@@ -8,7 +8,7 @@ function myMove() {
   var ran = Math.floor(Math.random()*11);
   var id = setInterval(frame, ran);
   function frame() {
-    if (pos == 350) {
+    if (pos == 90%) {
       clearInterval(id);
     } else {
       pos++; 
