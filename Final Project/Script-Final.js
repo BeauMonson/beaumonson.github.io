@@ -19,7 +19,7 @@ function myMove() {
 
   var elem2 = document.getElementById("animate2");
   var pos2 = 0;
-  var ran2 = Math.floor(Math.random()*11);
+  var ran2 = Math.floor(Math.random()*10);
   var id2 = setInterval(frame2, ran2);
   function frame2() {
   	  if (pos2 == 450) {
