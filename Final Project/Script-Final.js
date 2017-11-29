@@ -12,7 +12,6 @@ function myMove() {
       clearInterval(id);
     } else {
       pos++; 
-      elem.style.top = pos + 'px'; 
       elem.style.left = pos + 'px'; 
     }
   }
