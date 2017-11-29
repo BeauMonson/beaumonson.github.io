@@ -2,20 +2,16 @@
 This is my style css
 */
 
-.header
+h1
 {
-	background-color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
 body
 {
-	background-color: lightgrey;
+	background-color: orange;
 	text-align: center;
-}
-
-footer
-{
-	text-align: left;
 }
 
 p
