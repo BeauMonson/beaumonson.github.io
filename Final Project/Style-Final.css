@@ -20,13 +20,13 @@ p
 }
 
 #container {
-  width: 100%;
-  height: 100%;
+  width: 500 px;
+  height: 500 px;
   position: relative;
   background: white;
 }
 #animate {
-  width: 10%;
-  height: 10%;
+  width: 50 px;
+  height: 50 px;
   position: absolute;
   background-color: blue;
