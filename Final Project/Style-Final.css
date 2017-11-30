@@ -24,16 +24,16 @@ p
 #animate {
   width: 100px;
   height: 50px;
-  top: 560px;
-  left: 0px;
+  top: 580px;
+  left: 5px;
   position: absolute;
 }
 
 #animate2 {
   width: 100px;
   height: 50px;
-  top: 460px;
-  left: 0px;
+  top: 490px;
+  left: 5px;
   position: absolute;
 }
 
@@ -45,7 +45,7 @@ p
 	align: center;
 }
 
-#light2 {
+#light2:disabled {
 	position: relative;
 	width: 100px;
 	height: 100px;
