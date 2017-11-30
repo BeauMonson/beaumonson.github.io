@@ -40,10 +40,14 @@ function myMove(light, light2) {
   document.getElementById(light2).style.display = 'block';
 }
 
-function Reset(light, light2) {
-	document.getElementById(light).style.display = 'block';
-	document.getElementById(light2).style.display = 'none';
+function Reset(light, light2) 
+{
+	if (pos == 910 || elem2 == 910)
+	{
+		document.getElementById(light).style.display = 'block';
+		document.getElementById(light2).style.display = 'none';
 
-	document.getElementById("animate").style.left = 0;
-	document.getElementById("animate2").style.left = 0;
+		document.getElementById("animate").style.left = 0;
+		document.getElementById("animate2").style.left = 0;
+	}
 }
