@@ -41,9 +41,6 @@ function myMove(light, light2) {
 }
 
 function Reset(light, light2) {
-	clearInterval(id);
-	clearInterval(id2);
-	
 	document.getElementById(light).style.display = 'block';
 	document.getElementById(light2).style.display = 'none';
 
