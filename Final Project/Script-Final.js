@@ -39,3 +39,7 @@ function myMove(light, light2) {
   document.getElementById(light).style.display = 'none';
   document.getElementById(light2).style.display = 'inline';
 }
+
+function Reset() {
+	document.Reset;
+}
