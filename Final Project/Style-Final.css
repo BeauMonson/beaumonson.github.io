@@ -60,14 +60,17 @@ p
 	width: 700px;
 	height: 300px;
 	display: none;
+	margin: auto;
 }
 
 #blueCar {
 	width: 700px;
 	height: 300px;
 	display: none;
+	margin: auto;
 }
 
 #winningCar {
 	display: none;
+	text-align: center;
 }
