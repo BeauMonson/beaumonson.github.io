@@ -41,5 +41,9 @@ function myMove(light, light2) {
 }
 
 function Reset() {
-	document.Reset;
+	document.getElementById(light).style.display = 'inline';
+	document.getElementById(light2).style.display = 'none';
+
+	document.getElementById("animate").style.left = 0;
+	document.getElementById("animate2").style.left = 0;
 }
