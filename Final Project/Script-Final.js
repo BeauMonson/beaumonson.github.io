@@ -22,7 +22,7 @@ function myMove(light, light2) {
 	  document.getElementById("instructions").style.display = 'none';
 		
 	  document.getElementById("greenCar").style.display = 'block';
-	  document.getElementById("winningCar").innerHTML = "THE Green CAR WINS!! Click the car to reset the race!";
+	  document.getElementById("winningCar").innerHTML = "THE GREEN CAR WINS!! Click the car to reset the race!";
 	  
     } else {
       pos++; 
@@ -73,5 +73,8 @@ function Reset(light, light2)
 		document.getElementById("animate").style.display = 'block';
 		document.getElementById("animate2").style.display = 'block';
 		document.getElementById("instructions").style.display = 'block';
-
+		
+		document.getElementById("animate").style.left = 0;
+		document.getElementById("animate2").style.left = 0;
+		document.getElementById("instructions").innerHTML = "Click the red light to start the race!";
 }

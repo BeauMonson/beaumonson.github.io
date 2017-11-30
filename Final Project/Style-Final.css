@@ -74,5 +74,5 @@ p
 
 #winningCar {
 	display: none;
-	position: relative;
+	top: 400px;
 }
