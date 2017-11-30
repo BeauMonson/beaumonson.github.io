@@ -39,8 +39,12 @@ p
 
 .light {
 	display: block;
+	width: 100px;
+	height: 100px;
 }
 
 .light2 {
 	display: none;
+	width: 100px;
+	height: 100px;
 }
