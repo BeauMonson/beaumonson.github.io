@@ -36,6 +36,6 @@ function myMove() {
 	  }
   }
 
-	document.getElementById("redLight").style.hidden = none;
-	document.getElementById("greenLight").style.hidden = inline;
+	document.getElementById("redLight").style.display = none;
+	document.getElementById("greenLight").style.display = block;
 }
