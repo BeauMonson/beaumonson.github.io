@@ -52,4 +52,6 @@ p
 
 #instructions {
 	position: absolute;
+	top: 40px;
+	left: 150px;
 }
