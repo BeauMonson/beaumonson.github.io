@@ -40,7 +40,7 @@ p
 #redLight {
 	width: 200px;
 	height: 200px;
-	display: inline;
+	display: block;
 }
 
 #greenlight {
