@@ -37,5 +37,5 @@ function myMove() {
   }
 
 	document.getElementByClassName("light").style.display = none;
-	document.getElementByClassName("light2").style.display = block;
+	document.getElementByClassName("light2").style.display = inline;
 }
