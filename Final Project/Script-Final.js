@@ -12,7 +12,6 @@ function myMove(light, light2) {
       clearInterval(id);
 	  clearInterval(id2);
     } else {
-	  id = setInterval(frame, ran);
       pos++; 
       elem.style.left = pos + 'px'; 
     }
@@ -32,7 +31,6 @@ function myMove(light, light2) {
 	  	clearInterval(id2);
 		clearInterval(id);
 	  } else {
-		id2 = setInterval(fram2, ran2);
 	  	pos2++;
 		elem2.style.left = pos2 + 'px';
 	  }
