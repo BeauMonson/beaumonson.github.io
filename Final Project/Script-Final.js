@@ -35,4 +35,7 @@ function myMove() {
 		  elem2.style.left = pos2 + 'px';
 	  }
   }
+
+	document.getElementById("redLight").style.visibility = false;
+	document.getElementById("greenLight").style.visibility = true;
 }
