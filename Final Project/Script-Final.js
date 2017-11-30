@@ -8,7 +8,7 @@ function myMove() {
   var ran = Math.floor(Math.random()*11);
   var id = setInterval(frame, ran);
   function frame() {
-    if (pos == 900) {
+    if (pos == 910) {
       clearInterval(id);
 	  clearInterval(id2);
     } else {
@@ -27,7 +27,7 @@ function myMove() {
   var pos2 = 0;
   var id2 = setInterval(frame2, ran2);
   function frame2() {
-  	  if (pos2 == 900) {
+  	  if (pos2 == 910) {
 	  	  clearInterval(id2);
 		  clearInterval(id);
 	  } else {
