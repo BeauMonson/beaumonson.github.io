@@ -3,6 +3,9 @@ JavaScript source code
 */
 
 function myMove(light, light2) {
+
+	document.getElementById("instructions").innerHTML = "There they go!!!"
+
   var elem = document.getElementById("animate");   
   var pos = 0;
   var ran = Math.floor(Math.random()*11);
