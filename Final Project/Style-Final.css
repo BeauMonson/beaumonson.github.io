@@ -37,10 +37,10 @@ p
   position: absolute;
 }
 
-.redlight {
+.light {
 	display: block;
 }
 
-.greenlight {
+.light2 {
 	display: none;
 }
