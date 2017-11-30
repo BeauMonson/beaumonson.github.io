@@ -28,13 +28,14 @@ p
 #animate {
   width: 100px;
   height: 100px;
-  top: 100px;
+  top: 500px;
   position: absolute;
 }
 
 #animate2 {
   width: 100px;
   height: 100px;
+  top: 440px;
   position: absolute;
 }
 
