@@ -22,6 +22,7 @@ function myMove(light, light2) {
 	  document.getElementById("instructions").style.display = 'none';
 		
 	  document.getElementById("greenCar").style.display = 'block';
+	  document.getElementById("winningCar").style.display = 'block';
 	  document.getElementById("winningCar").innerHTML = "THE GREEN CAR WINS!! Click the car to reset the race!";
 	  
     } else {
@@ -51,6 +52,7 @@ function myMove(light, light2) {
 		document.getElementById("instructions").style.display = 'none';
 		
 		document.getElementById("blueCar").style.display = 'block';
+		document.getElementById("winningCar").style.display = 'block';
 		document.getElementById("winningCar").innerHTML = "THE BLUE CAR WINS!! Click the car to reset the race!";
 	  } else {
 	  	pos2++;

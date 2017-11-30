@@ -68,11 +68,6 @@ p
 	display: none;
 }
 
-.winner {
-	text-align: center;
-}
-
 #winningCar {
 	display: none;
-	top: 400px;
 }
