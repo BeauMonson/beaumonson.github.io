@@ -42,7 +42,7 @@ function myMove(light, light2) {
 
 function Reset(light, light2) 
 {
-	if (pos == 910 || pos2 == 910)
+	if (elem == 910 || elem2 == 910)
 	{
 		document.getElementById(light).style.display = 'block';
 		document.getElementById(light2).style.display = 'none';
