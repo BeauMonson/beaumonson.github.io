@@ -27,7 +27,7 @@ function myMove() {
   var pos2 = 0;
   var id2 = setInterval(frame2, ran2);
   function frame2() {
-  	  if (pos2 == 450) {
+  	  if (pos2 == 950) {
 	  	  clearInterval(id2);
 		  clearInterval(id);
 	  } else {
