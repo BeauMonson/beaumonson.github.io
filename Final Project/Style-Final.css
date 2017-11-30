@@ -23,7 +23,7 @@ p
 #animate {
   width: 100px;
   height: 50px;
-  top: 580px;
+  top:490px;
   left: 0px;
   position: absolute;
 }
@@ -31,7 +31,7 @@ p
 #animate2 {
   width: 100px;
   height: 50px;
-  top: 490px;
+  top:580px;
   left: 0px;
   position: absolute;
 }
@@ -54,4 +54,24 @@ p
 	position: absolute;
 	top: 100px;
 	left: 150px;
+}
+
+#greenCar {
+	width: 800px;
+	height: 400px;
+	display: none;
+}
+
+#blueCar {
+	width: 800px;
+	height: 400px;
+	display: none;
+}
+
+#winner {
+	text-align: center;
+}
+
+#winningCar {
+	display: none;
 }
