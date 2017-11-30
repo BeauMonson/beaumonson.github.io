@@ -57,21 +57,22 @@ p
 }
 
 #greenCar {
-	width: 800px;
-	height: 400px;
+	width: 700px;
+	height: 300px;
 	display: none;
 }
 
 #blueCar {
-	width: 800px;
-	height: 400px;
+	width: 700px;
+	height: 300px;
 	display: none;
 }
 
-#winner {
+.winner {
 	text-align: center;
 }
 
 #winningCar {
 	display: none;
+	position: relative;
 }

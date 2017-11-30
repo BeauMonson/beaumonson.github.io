@@ -64,10 +64,14 @@ function myMove(light, light2) {
 
 function Reset(light, light2) 
 {
+		document.getElementById("greenCar").style.display = 'none';
+		document.getElementById("blueCar").style.display = 'none';
+		document.getElementById("winningCar").style.display = 'none';
+
 		document.getElementById(light).style.display = 'block';
-		document.getElementById(light2).style.display = 'none';
+		document.getElementById("container").style.display = 'block';
+		document.getElementById("animate").style.display = 'block';
+		document.getElementById("animate2").style.display = 'block';
+		document.getElementById("instructions").style.display = 'block';
 
-		
-
-		document.getElementById("instructions").innerHTML = "Click the red light to start the race!";
 }
