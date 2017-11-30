@@ -38,13 +38,9 @@ p
 }
 
 .redlight {
-	width: 100px;
-	height: 100px;
 	display: block;
 }
 
 .greenlight {
-	width: 100px;
-	height: 100px;
 	display: none;
 }
