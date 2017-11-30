@@ -37,14 +37,14 @@ p
   position: absolute;
 }
 
-#redLight {
-	width: 200px;
-	height: 200px;
+.redlight {
+	width: 100px;
+	height: 100px;
 	display: block;
 }
 
-#greenlight {
-	width: 200px;
-	height: 200px;
+.greenlight {
+	width: 100px;
+	height: 100px;
 	display: none;
 }
