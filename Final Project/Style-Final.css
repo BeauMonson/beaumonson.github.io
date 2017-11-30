@@ -39,7 +39,6 @@ p
 
 #light {
 	position: relative;
-	left: 1020px;
 	width: 100px;
 	height: 100px;
 	display: inline;
@@ -48,7 +47,6 @@ p
 
 #light2 {
 	position: relative;
-	left:1020px;
 	width: 100px;
 	height: 100px;
 	display: none;
