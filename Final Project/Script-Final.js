@@ -3,10 +3,6 @@ JavaScript source code
 */
 
 function myMove() {
-
-	document.getElementByClassName("light").style.display = none;
-	document.getElementByClassName("light2").style.display = inline;
-
   var elem = document.getElementById("animate");   
   var pos = 0;
   var ran = Math.floor(Math.random()*11);
@@ -39,6 +35,4 @@ function myMove() {
 		  elem2.style.left = pos2 + 'px';
 	  }
   }
-
-	
 }

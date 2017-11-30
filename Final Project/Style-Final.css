@@ -20,7 +20,7 @@ p
 
 #container {
   width: 1000px;
-  height: 550px;
+  height: 600px;
   left: 0px;
   position: relative;
 }
@@ -28,7 +28,7 @@ p
 #animate {
   width: 100px;
   height: 100px;
-  top: 520px;
+  top: 570px;
   left: 0px;
   position: absolute;
 }
@@ -36,7 +36,7 @@ p
 #animate2 {
   width: 100px;
   height: 100px;
-  top: 440px;
+  top: 490px;
   left: 0px;
   position: absolute;
 }
