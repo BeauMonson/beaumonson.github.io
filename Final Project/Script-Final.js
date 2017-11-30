@@ -36,6 +36,6 @@ function myMove() {
 	  }
   }
 
-	document.getElementById("light").style.display = none;
-	document.getElementById("light2").style.display = block;
+	document.getElementByClassName("light").style.display = none;
+	document.getElementByClassName("light2").style.display = block;
 }
