@@ -36,7 +36,7 @@ p
   position: absolute;
 }
 
-.light {
+#light {
 	position: absolute;
 	left: 1020px;
 	width: 100px;
@@ -44,7 +44,7 @@ p
 	display: inline;
 }
 
-.light2 {
+#light2 {
 	display: none;
 	width: 100px;
 	height: 100px;
