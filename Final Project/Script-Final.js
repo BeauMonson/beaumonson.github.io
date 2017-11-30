@@ -5,7 +5,6 @@ JavaScript source code
 function myMove(light, light2) {
 
 	document.getElementById("instructions").innerHTML = "There they go!!!";
-	document.getElementById("instructions").style.left = 0px;
 
 	var elem = document.getElementById("animate");   
 	var pos = 0;
@@ -32,17 +31,17 @@ function myMove(light, light2) {
 		}
 	}
   
-	 var ran2 = Math.floor(Math.random()*11);
+	var ran2 = Math.floor(Math.random()*11);
 
-	  while (ran == ran2){
-  		  ran2 = Math.floor(math.random()*11);
-	  }
+	while (ran == ran2){
+  	  ran2 = Math.floor(math.random()*11);
+	}
 
-	  var elem2 = document.getElementById("animate2");
-	  var pos2 = 0;
-	  var id2 = setInterval(frame2, ran2);
-	  function frame2() {
-  		  if (pos2 == 910) {
+	var elem2 = document.getElementById("animate2");
+	var pos2 = 0;
+	var id2 = setInterval(frame2, ran2);
+	function frame2() {
+  	  if (pos2 == 910) {
 	  		clearInterval(id2);
 			clearInterval(id);
 
@@ -76,7 +75,6 @@ function Reset(light, light2)
 		document.getElementById("animate").style.display = 'block';
 		document.getElementById("animate2").style.display = 'block';
 		document.getElementById("instructions").style.display = 'block';
-		document.getElementById("instructions").style.left = 150px;
 		
 		document.getElementById("animate").style.left = 0;
 		document.getElementById("animate2").style.left = 0;
