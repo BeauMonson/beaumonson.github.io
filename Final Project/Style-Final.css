@@ -21,14 +21,15 @@ p
 #container {
   width: 1000px;
   height: 500px;
+  left: 0px;
   position: relative;
-  background: white;
 }
 
 #animate {
   width: 100px;
   height: 100px;
   top: 470px;
+  left: 0px;
   position: absolute;
 }
 
@@ -36,6 +37,7 @@ p
   width: 100px;
   height: 100px;
   top: 390px;
+  left: 0px;
   position: absolute;
 }
 
