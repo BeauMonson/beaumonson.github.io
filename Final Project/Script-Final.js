@@ -4,7 +4,7 @@ JavaScript source code
 
 function myMove(light, light2) {
 
-	document.getElementById("instructions").innerHTML = "There they go!!!"
+	document.getElementById("instructions").innerHTML = "There they go!!!";
 	document.getElementById("instructions").style.left = 0;
 
   var elem = document.getElementById("animate");   
