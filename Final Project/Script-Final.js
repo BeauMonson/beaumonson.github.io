@@ -12,7 +12,7 @@ function myMove(light, light2) {
       clearInterval(id);
 	  clearInterval(id2);
 
-	  document.getElementById("instructions").innerHTML = "THE BLUE CAR WINS!! Click the green light to race again.";
+	  document.getElementById("instructions").innerHTML = "THE GREEN CAR WINS!! Click the green light to reset the race.";
     } else {
       pos++; 
       elem.style.left = pos + 'px'; 
@@ -33,7 +33,7 @@ function myMove(light, light2) {
 	  	clearInterval(id2);
 		clearInterval(id);
 
-		document.getElementById("instructions").innerHTML = "THE GREEN CAR WINS!! Click the green light to race again.";
+		document.getElementById("instructions").innerHTML = "THE BLUE CAR WINS!! Click the green light to reset the race.";
 	  } else {
 	  	pos2++;
 		elem2.style.left = pos2 + 'px';
@@ -51,4 +51,6 @@ function Reset(light, light2)
 
 		document.getElementById("animate").style.left = 0;
 		document.getElementById("animate2").style.left = 0;
+
+		document.getElementById("instructions").innerHTML = "Click the red light to start the race!";
 }

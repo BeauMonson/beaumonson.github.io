@@ -49,3 +49,7 @@ p
 	height: 100px;
 	display: none;
 }
+
+#instructions {
+	display: inline;
+}
