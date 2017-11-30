@@ -40,7 +40,7 @@ function myMove(light, light2) {
   document.getElementById(light2).style.display = 'inline';
 }
 
-function Reset() {
+function Reset(light, light2) {
 	document.getElementById(light).style.display = 'inline';
 	document.getElementById(light2).style.display = 'none';
 
