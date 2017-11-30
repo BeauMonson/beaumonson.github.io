@@ -17,10 +17,10 @@ function myMove(light, light2) {
     }
   }
   
-  var ran2 = Math.floor(Math.random()*10);
+  var ran2 = Math.floor(Math.random()*11);
 
   while (ran == ran2){
-  	  ran2 = Math.floor(math.random()*10);
+  	  ran2 = Math.floor(math.random()*11);
   }
 
   var elem2 = document.getElementById("animate2");
@@ -37,11 +37,11 @@ function myMove(light, light2) {
   }
 
   document.getElementById(light).style.display = 'none';
-  document.getElementById(light2).style.display = 'inline';
+  document.getElementById(light2).style.display = 'block';
 }
 
 function Reset(light, light2) {
-	document.getElementById(light).style.display = 'inline';
+	document.getElementById(light).style.display = 'block';
 	document.getElementById(light2).style.display = 'none';
 
 	document.getElementById("animate").style.left = 0;
