@@ -20,23 +20,23 @@ p
 
 #container {
   width: 1000px;
-  height: 590px;
+  height: 580px;
   left: 0px;
   position: relative;
 }
 
 #animate {
   width: 100px;
-  height: 100px;
-  top: 570px;
+  height: 90px;
+  top: 550px;
   left: 0px;
   position: absolute;
 }
 
 #animate2 {
   width: 100px;
-  height: 100px;
-  top: 450px;
+  height: 90px;
+  top: 470px;
   left: 0px;
   position: absolute;
 }
