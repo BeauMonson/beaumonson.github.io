@@ -28,6 +28,7 @@ p
 #animate {
   width: 100px;
   height: 100px;
+  top: 100px;
   position: absolute;
 }
 
