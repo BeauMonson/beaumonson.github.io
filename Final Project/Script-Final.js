@@ -2,7 +2,7 @@
 JavaScript source code
 */
 
-function myMove(light) {
+function myMove(light, light2) {
   var elem = document.getElementById("animate");   
   var pos = 0;
   var ran = Math.floor(Math.random()*11);
@@ -37,4 +37,5 @@ function myMove(light) {
   }
 
   document.getElementById(light).style.display = 'none';
+  document.getElementById(light2).style.display = 'inline';
 }
