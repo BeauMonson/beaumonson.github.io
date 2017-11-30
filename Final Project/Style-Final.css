@@ -45,7 +45,9 @@ p
 }
 
 #light2 {
-	display: none;
+	position: absolute;
+	left:1020px;
 	width: 100px;
 	height: 100px;
+	display: none;
 }
