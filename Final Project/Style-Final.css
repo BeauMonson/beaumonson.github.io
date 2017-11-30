@@ -18,6 +18,7 @@ p
   height: 580px;
   left: 0px;
   position: relative;
+  align: center;
 }
 
 #animate {
@@ -42,6 +43,7 @@ p
 	width: 100px;
 	height: 100px;
 	display: inline;
+	align: center;
 }
 
 #light2 {
@@ -50,4 +52,5 @@ p
 	width: 100px;
 	height: 100px;
 	display: none;
+	align: center;
 }
