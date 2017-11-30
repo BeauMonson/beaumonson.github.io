@@ -40,11 +40,11 @@ p
 #redLight {
 	width: 200px;
 	height: 200px;
-	visibility: true;
+	display: inline;
 }
 
 #greenlight {
 	width: 200px;
 	height: 200px;
-	visibility: false;
+	display: none;
 }
